@@ -1,0 +1,25 @@
+{
+  "name": "pinger-service",
+  "version": "1.0.0",
+  "description": "A Node.js server to ping another server periodically.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js"
+  },
+  "keywords": [
+    "ping",
+    "keep-alive",
+    "nodejs",
+    "server",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2",
+    "dotenv": "^16.4.5"
+  }
+}
